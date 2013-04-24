@@ -1,0 +1,25 @@
+# Description: A keyboard layout indicator and switcher
+# URL:         http://sourceforge.net/projects/xxkb
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  util-linux xorg-libxpm xorg-imake
+
+name=xxkb
+version=1.11
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version-src.tar.gz)
+
+build() {
+    cd $name
+
+    xmkmf
+    make PROJECTROOT=/usr XONLYLIB='-lX11 -lXext'
+    make DESTDIR=$PKG install
+
+    install -m0644 -D xxkb.man $PKG/usr/man/man1/xxkb.1
+    # fix app-defaults location to /usr/share/X11
+    install -d $PKG/usr/share
+    mv $PKG/etc/X11 $PKG/usr/share
+
+    # remove junk
+    rm -rf $PKG/{etc,usr/lib}
+}
