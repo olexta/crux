@@ -1,0 +1,25 @@
+# Description: Virtual (graphical) keyboard program for X Window System
+# URL:         http://homepage3.nifty.com/tsato/xvkbd
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  util-linux xorg-libxtst xaw3d xorg-imake
+
+name=xvkbd
+version=3.3
+release=1
+source=(http://homepage3.nifty.com/tsato/$name/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    xmkmf
+    make
+    make DESTDIR=$PKG install
+
+    install -m0644 -D xvkbd.man $PKG/usr/man/man1/xvkbd.1
+    # fix app-defaults location to /usr/share/X11
+    install -d $PKG/usr/share
+    mv $PKG/etc/X11 $PKG/usr/share
+
+    # remove junk
+    rm -rf $PKG/{etc,usr/lib}
+}
