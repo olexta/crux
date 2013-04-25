@@ -1,0 +1,23 @@
+# Description: Allows users to mount volumes without an /etc/fstab entry
+# URL:         http://pmount.alioth.debian.org
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Tadeusz Sosnierz, tadzikes gmail com
+# Depends on:  util-linux
+
+name=pmount
+version=0.9.23
+release=1
+source=(https://alioth.debian.org/frs/download.php/3310/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+
+    # remove junk
+    rm -rf $PKG/usr/share
+}

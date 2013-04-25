@@ -2,6 +2,7 @@ d:xclip
 d:xxkb
 d:xdotool
 d:xvkbd
+d:pmount
 f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
 f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
 f:a77ed051905b66148533c21bb34b047a:xclip/Pkgfile
@@ -14,3 +15,6 @@ f:c23639a0b3e827a6e148ffafd86fcca5:xdotool/Pkgfile
 f:ac08d43bb9b783a663303753731cc19b:xvkbd/.footprint
 f:54d506c0b84e87091ebbe2bbfecdc3f9:xvkbd/.md5sum
 f:25f01be2a2ac9a5a8928561297a09990:xvkbd/Pkgfile
+f:93a6ac11188202139370bc5a839b7290:pmount/.footprint
+f:a61636bae631c18546c7b4531d1d6382:pmount/.md5sum
+f:a79df461fb88fc681442a7469b48bcc5:pmount/Pkgfile
