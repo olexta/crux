@@ -1,0 +1,16 @@
+# Description: Command-line X11 automation tool
+# URL:         http://www.semicomplete.com/projects/xdotool
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  xorg-libxtst xorg-libxinerama
+
+name=xdotool
+version=2.20110530.1
+release=1
+source=(http://semicomplete.googlecode.com/files/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    make
+    make DESTDIR=$PKG PREFIX=/usr install
+}
