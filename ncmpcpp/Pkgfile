@@ -1,0 +1,23 @@
+# Description:  An almost exact clone of ncmpc with some new features
+# URL:          http://unkart.ovh.org/ncmpcpp
+# Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:   ncurses libmpdclient
+# Nice to have: curl taglib
+
+name=ncmpcpp
+version=0.5.10
+release=1
+source=(http://$name.rybczak.net/stable/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --enable-clock
+    make
+    make DESTDIR=$PKG install
+
+    # remove junk
+    rm -rf $PKG/usr/share
+}
