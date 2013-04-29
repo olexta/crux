@@ -1,3 +1,4 @@
+d:gtkimageview
 d:xclip
 d:xxkb
 d:xorg-xf86-input-wacom
@@ -8,6 +9,9 @@ d:ncmpcpp
 d:xvkbd
 d:pmount
 d:volumeicon
+f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
+f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
+f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
 f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
 f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
 f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile

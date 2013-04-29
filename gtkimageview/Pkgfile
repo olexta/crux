@@ -1,0 +1,18 @@
+# Description: Simple image viewer widget for GTK2
+# URL:         http://trac.bjourne.webfactional.com
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  gtk
+
+name=gtkimageview
+version=1.6.4
+release=1
+source=("http://trac.bjourne.webfactional.com/chrome/common/releases/$name-$version.tar.gz")
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --without-html-dir
+    make
+    make DESTDIR=$PKG install
+}
