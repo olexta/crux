@@ -2,11 +2,11 @@
 # URL:         http://sourceforge.net/projects/xclip
 # Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
 # Packager:    Tadeusz Sosnierz, tadzikes gmail com
-# Depends on:  util-linux xorg-libxmu
+# Depends on:  xorg-libxmu
 
 name=xclip
 version=0.12
-release=1
+release=2
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
 build() {
