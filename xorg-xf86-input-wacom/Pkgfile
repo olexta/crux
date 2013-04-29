@@ -1,0 +1,22 @@
+# Description: X.Org Wacom tablet driver
+# URL:         http://linuxwacom.sourceforge.net
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  xorg-libxi xorg-libxinerama xorg-libxrandr
+
+name=xorg-xf86-input-wacom
+version=0.20.0
+release=1
+source=(http://downloads.sourceforge.net/linuxwacom/${name#*-}/${name#*-}-$version.tar.bz2
+        70-wacom.rules)
+
+build() {
+    cd ${name#*-}-$version
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --with-xorg-conf-dir=/usr/share/X11/xorg.conf.d
+    make
+    make DESTDIR=$PKG install
+
+    install -m0644 -D $SRC/70-wacom.rules $PKG/lib/udev/rules.d/70-wacom.rules
+}

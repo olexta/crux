@@ -1,5 +1,6 @@
 d:xclip
 d:xxkb
+d:xorg-xf86-input-wacom
 d:xdotool
 d:gsimplecal
 d:jhead
@@ -13,6 +14,10 @@ f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile
 f:3eceaad15a8144dbfcbdf7c439d33cc5:xxkb/.footprint
 f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
 f:6f15e04cd8ba0b8b9ba638232e8b6a36:xxkb/Pkgfile
+f:fecea13169f7e4b848e62c72b6da6952:xorg-xf86-input-wacom/.footprint
+f:3dea4101959adc03adad7279553ac01b:xorg-xf86-input-wacom/.md5sum
+f:966cb2a190183836e04e1695f07dc2c5:xorg-xf86-input-wacom/Pkgfile
+f:10db4f8272286690255c1bcc18bfdd92:xorg-xf86-input-wacom/70-wacom.rules
 f:1143c35390f5a1c2d9d30b0ad2a2ab7a:xdotool/.footprint
 f:9eb90c89139ac5f10313654994a67c97:xdotool/.md5sum
 f:c23639a0b3e827a6e148ffafd86fcca5:xdotool/Pkgfile
