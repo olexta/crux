@@ -6,6 +6,7 @@ d:jhead
 d:ncmpcpp
 d:xvkbd
 d:pmount
+d:volumeicon
 f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
 f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
 f:a77ed051905b66148533c21bb34b047a:xclip/Pkgfile
@@ -30,3 +31,7 @@ f:25f01be2a2ac9a5a8928561297a09990:xvkbd/Pkgfile
 f:93a6ac11188202139370bc5a839b7290:pmount/.footprint
 f:a61636bae631c18546c7b4531d1d6382:pmount/.md5sum
 f:a79df461fb88fc681442a7469b48bcc5:pmount/Pkgfile
+f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
+f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
+f:0d7e9b952a538e369be5fe8e9a142229:volumeicon/.md5sum
+f:7991361a0833ef9ac4d5d843ec36cd74:volumeicon/Pkgfile

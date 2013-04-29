@@ -1,0 +1,21 @@
+# Description: Lightweight volume control that sits in your systray
+# URL:         http://softwarebakery.com/maato/volumeicon.html
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Jose V Beneyto, sepen at crux dot nu
+# Depends on:  alsa-lib gtk
+
+name=volumeicon
+version=0.4.6
+release=1
+source=(http://softwarebakery.com/maato/files/$name/$name-$version.tar.gz
+        glib.patch)
+
+build() {
+    cd $name-$version
+
+    patch -Np1 -i $SRC/glib.patch
+
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}
