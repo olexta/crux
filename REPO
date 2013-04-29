@@ -1,6 +1,7 @@
 d:xclip
 d:xxkb
 d:xdotool
+d:gsimplecal
 d:jhead
 d:ncmpcpp
 d:xvkbd
@@ -14,6 +15,9 @@ f:ad07a8bb013b5e3b8006521a9bee3368:xxkb/Pkgfile
 f:1143c35390f5a1c2d9d30b0ad2a2ab7a:xdotool/.footprint
 f:9eb90c89139ac5f10313654994a67c97:xdotool/.md5sum
 f:c23639a0b3e827a6e148ffafd86fcca5:xdotool/Pkgfile
+f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
+f:54915f1a89e9ef56480922adf87d4c3a:gsimplecal/.md5sum
+f:148c85a192d16ee246018b741f6cb634:gsimplecal/Pkgfile
 f:69a45bed3c2a4075e5ac0407d5dfe027:jhead/.footprint
 f:a46e490d96f76c6c4f7306f545f9d06d:jhead/.md5sum
 f:8ba89e8e08a92adbd3c0c59560e6c4ee:jhead/Pkgfile
