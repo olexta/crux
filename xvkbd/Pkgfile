@@ -4,8 +4,8 @@
 # Depends on:  xorg-libxtst xaw3d xorg-imake
 
 name=xvkbd
-version=3.3
-release=2
+version=3.4
+release=1
 source=(http://homepage3.nifty.com/tsato/$name/$name-$version.tar.gz)
 
 build() {
