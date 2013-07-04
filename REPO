@@ -6,6 +6,7 @@ d:xdotool
 d:gsimplecal
 d:jhead
 d:ncmpcpp
+d:ufraw
 d:xvkbd
 d:pmount
 d:volumeicon
@@ -34,6 +35,10 @@ f:8ba89e8e08a92adbd3c0c59560e6c4ee:jhead/Pkgfile
 f:e60edf6e9eacd51d87a8d4e78c7151f5:ncmpcpp/.footprint
 f:7c46494fb53984fb7c167d1931f2e51f:ncmpcpp/.md5sum
 f:f4468b6e2c804edd16b0b559e5e8a7bf:ncmpcpp/Pkgfile
+f:3599848e425240d93a390f3ec9f2f01f:ufraw/.footprint
+f:e3e32867e084383f0fea613c60835907:ufraw/README
+f:c2692d92b9d78fef428becd8e37d0cd8:ufraw/.md5sum
+f:90c05741a6e92b1e727e9e93f33a6433:ufraw/Pkgfile
 f:ac08d43bb9b783a663303753731cc19b:xvkbd/.footprint
 f:54d506c0b84e87091ebbe2bbfecdc3f9:xvkbd/.md5sum
 f:e5c1487827b234e785b6f200e4c95910:xvkbd/Pkgfile
