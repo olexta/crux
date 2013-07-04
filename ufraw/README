@@ -1,0 +1,6 @@
+README for ufraw
+
+NOTES
+----
+  If gimp is installed on your system, you'll get a footprint mismatch when
+  building the ufraw. It can be pkgadd'ed anyway and will function as normal.

@@ -1,3 +1,4 @@
+d:gtkimageview
 d:xclip
 d:xxkb
 d:xorg-xf86-input-wacom
@@ -6,9 +7,13 @@ d:xxd
 d:gsimplecal
 d:jhead
 d:ncmpcpp
+d:ufraw
 d:xvkbd
 d:pmount
 d:volumeicon
+f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
+f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
+f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
 f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
 f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
 f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile
@@ -34,6 +39,10 @@ f:8ba89e8e08a92adbd3c0c59560e6c4ee:jhead/Pkgfile
 f:e60edf6e9eacd51d87a8d4e78c7151f5:ncmpcpp/.footprint
 f:7c46494fb53984fb7c167d1931f2e51f:ncmpcpp/.md5sum
 f:f4468b6e2c804edd16b0b559e5e8a7bf:ncmpcpp/Pkgfile
+f:3599848e425240d93a390f3ec9f2f01f:ufraw/.footprint
+f:e3e32867e084383f0fea613c60835907:ufraw/README
+f:c2692d92b9d78fef428becd8e37d0cd8:ufraw/.md5sum
+f:90c05741a6e92b1e727e9e93f33a6433:ufraw/Pkgfile
 f:ac08d43bb9b783a663303753731cc19b:xvkbd/.footprint
 f:20f6d9aa6a34a2bad94843e2581a3be7:xvkbd/.md5sum
 f:a8f12763f1fd5f704acfc0ff62fe10cf:xvkbd/Pkgfile
