@@ -1,0 +1,24 @@
+# Description: A GTK+ based scientific calculator
+# URL:         http://galculator.sourceforge.net
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    arux, acrux at linuxmail dot org
+# Depends on:  gtk
+
+name=galculator
+version=2.1.2
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --mandir=/usr/man \
+                --disable-nls \
+                --disable-gtk3
+    make
+    make DESTDIR=$PKG install
+
+    # remove junk
+    rm -rf $PKG/usr/share/locale
+}

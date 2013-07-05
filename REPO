@@ -9,6 +9,7 @@ d:jhead
 d:ncmpcpp
 d:ufraw
 d:xvkbd
+d:galculator
 d:pmount
 d:volumeicon
 f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
@@ -46,6 +47,9 @@ f:90c05741a6e92b1e727e9e93f33a6433:ufraw/Pkgfile
 f:ac08d43bb9b783a663303753731cc19b:xvkbd/.footprint
 f:20f6d9aa6a34a2bad94843e2581a3be7:xvkbd/.md5sum
 f:a8f12763f1fd5f704acfc0ff62fe10cf:xvkbd/Pkgfile
+f:0a92412acb18b7836659f1b77063d9ef:galculator/.footprint
+f:177697a9a09f158f545acddb36666ca3:galculator/.md5sum
+f:ff2af49f8abd29af3a225e6a729e5372:galculator/Pkgfile
 f:93a6ac11188202139370bc5a839b7290:pmount/.footprint
 f:a61636bae631c18546c7b4531d1d6382:pmount/.md5sum
 f:a79df461fb88fc681442a7469b48bcc5:pmount/Pkgfile
