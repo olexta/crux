@@ -5,6 +5,7 @@ d:xorg-xf86-input-wacom
 d:xdotool
 d:xxd
 d:gsimplecal
+d:easytag
 d:jhead
 d:ncmpcpp
 d:ufraw
@@ -34,6 +35,9 @@ f:7857b38cb6cb0dd4efce9ef6dd24feb7:xxd/Pkgfile
 f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
 f:54915f1a89e9ef56480922adf87d4c3a:gsimplecal/.md5sum
 f:148c85a192d16ee246018b741f6cb634:gsimplecal/Pkgfile
+f:e7d6cf3df9f4f9be07cff84a3b892089:easytag/.footprint
+f:64a1062b8e3acd2b26a27c84baec4e9a:easytag/.md5sum
+f:723c0f93dff246f61242ef6009b19dfa:easytag/Pkgfile
 f:69a45bed3c2a4075e5ac0407d5dfe027:jhead/.footprint
 f:a46e490d96f76c6c4f7306f545f9d06d:jhead/.md5sum
 f:8ba89e8e08a92adbd3c0c59560e6c4ee:jhead/Pkgfile
