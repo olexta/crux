@@ -2,8 +2,8 @@
 # URL:          http://projects.gnome.org/easytag
 # Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
 # Packager:     Antti Nykanen, aon at iki dot fi
-# Depends on:   gtk, libid3tag
-# Nice to have: flac, libvorbis
+# Depends on:   gtk libid3tag
+# Nice to have: flac libvorbis
 
 name=easytag
 version=2.1.7
