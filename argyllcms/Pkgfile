@@ -1,0 +1,33 @@
+# Description: An ICC compatible color management system with support for different colorimeter hardware
+# URL:         http://www.argyllcms.com
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  xorg-libxxf86vm xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver jam
+
+name=argyllcms
+version=1.5.1
+release=1
+source=(http://www.argyllcms.com/Argyll_V${version}_src.zip)
+
+build() {
+    cd Argyll_V$version
+
+    # use scanner group instead of plugdev
+    sed 's/plugdev/scanner/g' -i usb/{*.rules,Argyll} doc/*Linux*
+    # usb-db util is deprecated and is not needed to set ID_VENDOR and ID_MODEL
+    # acording to VID and PID
+    sed '/usb-db/d' -i usb/55-Argyll.rules
+
+    make all
+    make DESTDIR=$PKG PREFIX="/usr" REFSUBDIR="share/$name/ref" install
+
+    install -m0644 -D usb/55-Argyll.rules $PKG/lib/udev/rules.d/55-Argyll.rules
+    # there is html documentation only, so install it
+    install -d $PKG/usr/share/$name/doc/ccmxs
+    install -m0644 doc/*.* $PKG/usr/share/$name/doc
+    install -m0644 doc/ccmxs/*.ccmx $PKG/usr/share/$name/doc/ccmxs
+    # fix file permissions for executables
+    chmod 0755 $PKG/usr/bin/*
+
+    # remove junk
+    rm -f $PKG/usr/bin/License.txt
+}

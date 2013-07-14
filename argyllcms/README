@@ -1,0 +1,13 @@
+README for argyllcms
+
+POST-INSTALL
+----
+  Please add your argyllcms user to scanner group!
+
+NOTES
+----
+  * The documentaion is only available as html, you will find it in
+    /usr/share/argyllcms/doc
+  * Color charts located in /usr/share/argyllcms/ref
+  * Experimental ColorHug support is compiled in, but is disabled unless the
+    environment variable "ENABLE_COLORHUG" is set.

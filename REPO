@@ -13,6 +13,7 @@ d:xvkbd
 d:galculator
 d:pmount
 d:volumeicon
+d:argyllcms
 f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
 f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
 f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
@@ -61,3 +62,7 @@ f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
 f:0d7e9b952a538e369be5fe8e9a142229:volumeicon/.md5sum
 f:7991361a0833ef9ac4d5d843ec36cd74:volumeicon/Pkgfile
+f:e1592f5d6a2cda2336d2ecd3566a4005:argyllcms/.footprint
+f:c6d4ee1180de388c5558747e1dc33c69:argyllcms/README
+f:41d3200d796be408707e441be9e70e76:argyllcms/.md5sum
+f:86bd5fdb52fd5c5ad5d0b3186ada846d:argyllcms/Pkgfile
