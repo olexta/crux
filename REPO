@@ -13,6 +13,7 @@ d:ufraw
 d:xvkbd
 d:galculator
 d:pmount
+d:rsnapshot
 d:sonata
 d:volumeicon
 d:argyllcms
@@ -63,6 +64,10 @@ f:ff2af49f8abd29af3a225e6a729e5372:galculator/Pkgfile
 f:93a6ac11188202139370bc5a839b7290:pmount/.footprint
 f:a61636bae631c18546c7b4531d1d6382:pmount/.md5sum
 f:a79df461fb88fc681442a7469b48bcc5:pmount/Pkgfile
+f:5f96bc2f04a0138931f0db24123d4d85:rsnapshot/.footprint
+f:ec1e409e62bb2d5d5a5e5d5d4e6694d3:rsnapshot/README
+f:68457d7b9c721670502953a328159fb0:rsnapshot/.md5sum
+f:fb709212e1955f756f45d0fac9220ecf:rsnapshot/Pkgfile
 f:2f2872fc362da9923cf25a7da0a1c4a8:sonata/.footprint
 f:5276156eca12cb00b666c6c6be7c4972:sonata/.md5sum
 f:6e6fca7546bf869f2c036eeee28c4653:sonata/Pkgfile

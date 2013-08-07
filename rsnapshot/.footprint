@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/rsnapshot.conf
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/rsnapshot
+-rwxr-xr-x	root/root	usr/bin/rsnapshot-diff
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/rsnapshot-diff.1.gz
+-rw-r--r--	root/root	usr/man/man1/rsnapshot.1.gz

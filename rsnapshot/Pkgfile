@@ -1,0 +1,21 @@
+# Description: A remote filesystem snapshot utility
+# URL:         http://www.rsnapshot.org
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Antonio SJ Musumeci, bile at landofbile dot com
+# Depends on:
+
+name=rsnapshot
+version=1.3.1
+release=1
+source=(http://www.rsnapshot.org/downloads/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --sysconfdir=/etc
+    make
+    make DESTDIR=$PKG install
+
+    mv $PKG/etc/rsnapshot.conf.default $PKG/etc/rsnapshot.conf
+}
