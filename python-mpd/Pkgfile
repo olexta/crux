@@ -1,0 +1,16 @@
+# Description: An MPD (Music Player Daemon) client library written in pure Python
+# URL:         http://jatreuman.indefero.net/p/python-mpd
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Sean Whitton, sean at silentflame dot com
+# Depends on:  python
+
+name=python-mpd
+version=0.3.0
+release=1
+source=(http://pypi.python.org/packages/source/p/$name/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    python setup.py install --root=$PKG --prefix=/usr
+}

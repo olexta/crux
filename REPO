@@ -1,4 +1,5 @@
 d:gtkimageview
+d:python-mpd
 d:xclip
 d:xxkb
 d:xorg-xf86-input-wacom
@@ -17,6 +18,9 @@ d:argyllcms
 f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
 f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
 f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
+f:3299d707f5b701befe7a91610c032bfd:python-mpd/.footprint
+f:91408e62b068ba67efab34e523830ce5:python-mpd/.md5sum
+f:6d5e857a59f4476beec1809469d06695:python-mpd/Pkgfile
 f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
 f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
 f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile
