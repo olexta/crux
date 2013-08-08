@@ -2,6 +2,7 @@ d:gtkimageview
 d:python-mpd
 d:xclip
 d:xxkb
+d:arandr
 d:xorg-xf86-input-wacom
 d:xdotool
 d:xxd
@@ -29,6 +30,9 @@ f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile
 f:3eceaad15a8144dbfcbdf7c439d33cc5:xxkb/.footprint
 f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
 f:6f15e04cd8ba0b8b9ba638232e8b6a36:xxkb/Pkgfile
+f:0010763d8ac1cd5d3587fabbad51f2d6:arandr/.footprint
+f:f0f815eed17b06940a6afd8d49f7a121:arandr/.md5sum
+f:f44288c891cc42467dd083482dbae1e4:arandr/Pkgfile
 f:fecea13169f7e4b848e62c72b6da6952:xorg-xf86-input-wacom/.footprint
 f:3dea4101959adc03adad7279553ac01b:xorg-xf86-input-wacom/.md5sum
 f:966cb2a190183836e04e1695f07dc2c5:xorg-xf86-input-wacom/Pkgfile

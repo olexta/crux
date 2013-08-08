@@ -1,0 +1,21 @@
+# Description: Provide a simple visual front end for XRandR
+# URL:         http://christian.amsuess.com/tools/arandr
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  pygtk xorg-xrandr docutils
+
+name=arandr
+version=0.1.7.1
+release=1
+source=(http://christian.amsuess.com/tools/$name/files/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    python setup.py install --root=$PKG --prefix=/usr
+
+    # fix man location
+    mv $PKG/usr/share/man $PKG/usr
+
+    # remove junk
+    rm -rf $PKG/usr/share/locale
+}
