@@ -13,7 +13,7 @@ source=(http://softwarebakery.com/maato/files/$name/$name-$version.tar.gz
 build() {
     cd $name-$version
 
-    patch -Np1 -i $SRC/glib.patch
+    patch -p1 -i $SRC/glib.patch
 
     ./configure --prefix=/usr
     make
