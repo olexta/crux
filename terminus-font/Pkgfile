@@ -7,7 +7,7 @@
 
 name=terminus-font
 version=4.36
-release=1
+release=2
 source=(http://downloads.sourceforge.net/project/$name/$name-$version/$name-$version.tar.gz)
 
 build() {
@@ -21,6 +21,6 @@ build() {
 
     # ter-v* console fonts consist of all available codepages
     rm -f $PKG/usr/share/kbd/consolefonts/ter-[^v]*
-    # remove all non ISO10646-1 fonts for X11
-    rm -f $PKG/usr/share/fonts/X11/terminus/ter-[^x]*
+    # remove all non ISO10646-1/cp1251 fonts for X11
+    rm -f $PKG/usr/share/fonts/X11/terminus/ter-[^cx]*
 }
