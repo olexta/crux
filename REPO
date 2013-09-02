@@ -84,7 +84,7 @@ f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
 f:0d7e9b952a538e369be5fe8e9a142229:volumeicon/.md5sum
 f:f133bd2a24f4c3369c55c111780b553b:volumeicon/Pkgfile
-f:e1592f5d6a2cda2336d2ecd3566a4005:argyllcms/.footprint
+f:821bae967bc6d402e1970a1a183a398c:argyllcms/.footprint
 f:c6d4ee1180de388c5558747e1dc33c69:argyllcms/README
-f:41d3200d796be408707e441be9e70e76:argyllcms/.md5sum
-f:86bd5fdb52fd5c5ad5d0b3186ada846d:argyllcms/Pkgfile
+f:1b4a4f09fe4d748552613b483210db57:argyllcms/.md5sum
+f:9be5360e47050be953b682dadbee6c59:argyllcms/Pkgfile

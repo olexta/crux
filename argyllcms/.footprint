@@ -86,6 +86,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Installing_Linux.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Installing_MSWindows.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Installing_OSX.html
+-rw-r--r--	root/root	usr/share/argyllcms/doc/JETI_1211.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph1.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph2.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph3.jpg
@@ -183,6 +184,9 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/ccmxs/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/i1pro2.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/i1proDriver.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/i1proDriver.xls
+-rw-r--r--	root/root	usr/share/argyllcms/doc/i1proHiRes.html
+-rw-r--r--	root/root	usr/share/argyllcms/doc/i1proHiRes.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/i1proHiRes.zip
 -rw-r--r--	root/root	usr/share/argyllcms/doc/i1scan14.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/iccdump.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/iccgamut.html
@@ -257,6 +261,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_2.0.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_2.5.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_3.0.sp
+-rw-r--r--	root/root	usr/share/argyllcms/ref/EBU3213_PAL.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ECI2002.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ECI2002R.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/FograStrip2.ti1
@@ -271,7 +276,11 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/QPcard_201.cie
 -rw-r--r--	root/root	usr/share/argyllcms/ref/QPcard_202.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/QPcard_202.cie
+-rw-r--r--	root/root	usr/share/argyllcms/ref/Rec2020.icm
+-rw-r--r--	root/root	usr/share/argyllcms/ref/Rec709.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/RefMediumGamut.gam
+-rw-r--r--	root/root	usr/share/argyllcms/ref/SMPTE431.icm
+-rw-r--r--	root/root	usr/share/argyllcms/ref/SMPTE_RP145_NTSC.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SOtele.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker.cie
