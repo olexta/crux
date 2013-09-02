@@ -4,7 +4,7 @@
 # Depends on:  xorg-libxi xorg-libxinerama xorg-libxrandr
 
 name=xorg-xf86-input-wacom
-version=0.20.0
+version=0.22.1
 release=1
 source=(http://downloads.sourceforge.net/linuxwacom/${name#*-}/${name#*-}-$version.tar.bz2
         70-wacom.rules)
