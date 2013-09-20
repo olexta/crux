@@ -1,0 +1,25 @@
+# Description: Console version of StarDict program
+# URL:         http://sdcv.sourceforge.net
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Ivan Rodionov, jean at mosk ru
+# Depends on:  glib
+
+name=sdcv
+version=0.4.2
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2
+        sdcv-0.4.2-headers.patch)
+
+build() {
+    cd $name-$version
+
+    patch -p1 -i $SRC/sdcv-0.4.2-headers.patch
+
+    ./configure --prefix=/usr \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+
+    # remove junk
+    rm -rf $PKG/usr/man/uk
+}

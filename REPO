@@ -1,3 +1,4 @@
+d:sdcv
 d:gtkimageview
 d:python-mpd
 d:xclip
@@ -19,6 +20,10 @@ d:rsnapshot
 d:sonata
 d:volumeicon
 d:argyllcms
+f:47c95bcd44e6c848969c07c93cca999f:sdcv/.footprint
+f:4049caebe937754c99ca8a870b1bace2:sdcv/.md5sum
+f:ea5708bcb80f3c2c8d50dd19cac423f4:sdcv/Pkgfile
+f:76cd68bbf4662f3ab9e1d82822f0a0c6:sdcv/sdcv-0.4.2-headers.patch
 f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
 f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
 f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
