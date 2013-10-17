@@ -1,7 +1,6 @@
 d:sdcv
 d:gtkimageview
 d:python-mpd
-d:xclip
 d:xxkb
 d:arandr
 d:xorg-xf86-input-wacom
@@ -30,9 +29,6 @@ f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
 f:3299d707f5b701befe7a91610c032bfd:python-mpd/.footprint
 f:91408e62b068ba67efab34e523830ce5:python-mpd/.md5sum
 f:6d5e857a59f4476beec1809469d06695:python-mpd/Pkgfile
-f:c4ae4cf8cc7a1510eec5f2ed50e5ea9c:xclip/.footprint
-f:2e2ad80b55e9dd07bca9ac0f3c39fc0f:xclip/.md5sum
-f:aaeb8bbe23ebd5d9a177ffe57d658053:xclip/Pkgfile
 f:3eceaad15a8144dbfcbdf7c439d33cc5:xxkb/.footprint
 f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
 f:6f15e04cd8ba0b8b9ba638232e8b6a36:xxkb/Pkgfile
