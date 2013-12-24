@@ -80,7 +80,7 @@ f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
 f:0d7e9b952a538e369be5fe8e9a142229:volumeicon/.md5sum
 f:f133bd2a24f4c3369c55c111780b553b:volumeicon/Pkgfile
-f:821bae967bc6d402e1970a1a183a398c:argyllcms/.footprint
+f:e66924ba15592bf6063de2a72e8659d5:argyllcms/.footprint
 f:c6d4ee1180de388c5558747e1dc33c69:argyllcms/README
-f:1b4a4f09fe4d748552613b483210db57:argyllcms/.md5sum
-f:9be5360e47050be953b682dadbee6c59:argyllcms/Pkgfile
+f:beaa1e67d69ac2dcd4f06ca2b1d4ac10:argyllcms/.md5sum
+f:1df34efa83484ee48c0ab6c1c5ea1e14:argyllcms/Pkgfile
