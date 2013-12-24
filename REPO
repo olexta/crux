@@ -35,8 +35,8 @@ f:0010763d8ac1cd5d3587fabbad51f2d6:arandr/.footprint
 f:f0f815eed17b06940a6afd8d49f7a121:arandr/.md5sum
 f:f44288c891cc42467dd083482dbae1e4:arandr/Pkgfile
 f:fecea13169f7e4b848e62c72b6da6952:xorg-xf86-input-wacom/.footprint
-f:6d0fd1905bd2acf7a613b9dad13dc191:xorg-xf86-input-wacom/.md5sum
-f:f8670764c3060dd5d29349b839a1dc39:xorg-xf86-input-wacom/Pkgfile
+f:83bdea688a0419f30a7539f808fe94f9:xorg-xf86-input-wacom/.md5sum
+f:f085a548c3a177911d9d83a96c33f1b6:xorg-xf86-input-wacom/Pkgfile
 f:10db4f8272286690255c1bcc18bfdd92:xorg-xf86-input-wacom/70-wacom.rules
 f:1143c35390f5a1c2d9d30b0ad2a2ab7a:xdotool/.footprint
 f:9eb90c89139ac5f10313654994a67c97:xdotool/.md5sum
