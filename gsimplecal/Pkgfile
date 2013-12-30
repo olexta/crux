@@ -4,15 +4,17 @@
 # Depends on:  gtk
 
 name=gsimplecal
-version=1.6
+version=2.0
 release=1
-source=(https://github.com/downloads/dmedvinsky/$name/$name-$version.tar.gz)
+source=(https://github.com/dmedvinsky/$name/archive/v$version.tar.gz)
 
 build() {
     cd $name-$version
 
+    ./autogen.sh
     ./configure --prefix=/usr \
-                --mandir=/usr/man
+                --mandir=/usr/man \
+                --enable-gtk2
     make
     make DESTDIR=$PKG install
 }
