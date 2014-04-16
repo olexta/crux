@@ -1,0 +1,24 @@
+# Description:  Database of photographic lenses and a library that allows advanced access to the database
+# URL:          http://lensfun.sourceforge.net
+# Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:   glib cmake
+
+name=lensfun
+version=0.2.8
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    mkdir cmake_build && cd cmake_build
+
+    cmake -DLENSFUN_INSTALL_PREFIX=/usr \
+          -DBUILD_TESTS=OFF \
+          ..
+    make
+    make DESTDIR=$PKG install
+
+    # remove junk
+    rm -rf $PKG/usr/share/doc
+}
