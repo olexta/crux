@@ -1,0 +1,29 @@
+# Description:  An open source photography workflow application and RAW developer
+# URL:          http://www.darktable.org
+# Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:   librsvg lcms2 exiv2 openexr lensfun
+# Nice to have: openjpeg libgphoto2
+
+name=darktable
+version=1.4.1
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+
+    mkdir cmake_build && cd cmake_build
+
+    cmake -DCMAKE_INSTALL_PREFIX=/usr \
+          -DCMAKE_BUILD_TYPE=Release \
+          -DUSE_NLS=OFF \
+          ..
+    make
+    make DESTDIR=$PKG install
+
+    # fix man location
+    mv $PKG/usr/share/man $PKG/usr
+
+    # remove junk
+    rm -rf $PKG/usr/share/doc
+}
