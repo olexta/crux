@@ -6,18 +6,23 @@
 # Nice to have: flac libvorbis
 
 name=easytag
-version=2.1.7
+version=2.1.8
 release=1
-source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+source=(https://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.xz
+        old-scan-icon.patch)
 
 build() {
     cd $name-$version
 
+    patch -p1 -i $SRC/old-scan-icon.patch
+
     ./configure --prefix=/usr \
-                --mandir=/usr/man
+                --mandir=/usr/man \
+                --disable-nls \
+                --disable-id3v23
     make
     make DESTDIR=$PKG install
 
     # remove junk
-    rm -rf $PKG/usr/share/locale
+    rm -rf $PKG/usr/share/doc
 }

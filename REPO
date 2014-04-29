@@ -52,9 +52,10 @@ f:38c9794ccccdd2af49dfdd1c87352a92:lensfun/Pkgfile
 f:e34ec2e71041960d8ce00b9fab4ea0da:gsimplecal/.footprint
 f:8eb309451c2c3a867e5a6a4f063514f4:gsimplecal/.md5sum
 f:b2c52460bed98d787f18c26cbb27ac67:gsimplecal/Pkgfile
-f:e7d6cf3df9f4f9be07cff84a3b892089:easytag/.footprint
-f:64a1062b8e3acd2b26a27c84baec4e9a:easytag/.md5sum
-f:d10d7b7153b92a545752790083d92d66:easytag/Pkgfile
+f:2999c80d5885cd010e31c8d11a69f206:easytag/.footprint
+f:cf5975420ec71cca5f2d7cede00e59cc:easytag/.md5sum
+f:e8023b848774d0e61ad304a4f809064f:easytag/Pkgfile
+f:54dbc709de43218d93cefea501242f70:easytag/old-scan-icon.patch
 f:8de8f0315af2789f862db05e4f527acb:darktable/.footprint
 f:8f30331d27be1d38a3540efbfae3d452:darktable/.md5sum
 f:501a33bb2c6305b0fcb60b6db15f599a:darktable/Pkgfile
