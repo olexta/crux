@@ -6,6 +6,7 @@ d:arandr
 d:xorg-xf86-input-wacom
 d:xdotool
 d:xxd
+d:jpegexiforient
 d:lensfun
 d:gsimplecal
 d:easytag
@@ -46,6 +47,9 @@ f:c23639a0b3e827a6e148ffafd86fcca5:xdotool/Pkgfile
 f:4f2453cdcddcdab399462176f34d819e:xxd/.footprint
 f:1106983993553e01fe4cfab012987283:xxd/.md5sum
 f:7857b38cb6cb0dd4efce9ef6dd24feb7:xxd/Pkgfile
+f:ad0545330fb0518c9b67f8a53c0e0bbc:jpegexiforient/.footprint
+f:26b1568bfd6e84a7dbbf3c4c69bbf0e6:jpegexiforient/.md5sum
+f:3c32ba6c26c8989e8338b91b5dca6563:jpegexiforient/Pkgfile
 f:fb38ba45366ff28f0297a749fe25814b:lensfun/.footprint
 f:965ce81759089294d66713e343b288c1:lensfun/.md5sum
 f:38c9794ccccdd2af49dfdd1c87352a92:lensfun/Pkgfile

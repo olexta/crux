@@ -1,0 +1,15 @@
+# Description:  A utility program to get and set the Exif Orientation Tag
+# URL:          http://sylvana.net/jpegcrop/exif_orientation.html
+# Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:
+
+name=jpegexiforient
+version=2002.02.17
+release=1
+source=(http://jpegclub.org/$name.c)
+
+build() {
+    gcc jpegexiforient.c -o jpegexiforient
+
+    install -m0755 -D jpegexiforient $PKG/usr/bin/jpegexiforient
+}
