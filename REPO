@@ -60,9 +60,9 @@ f:2999c80d5885cd010e31c8d11a69f206:easytag/.footprint
 f:cf5975420ec71cca5f2d7cede00e59cc:easytag/.md5sum
 f:e8023b848774d0e61ad304a4f809064f:easytag/Pkgfile
 f:54dbc709de43218d93cefea501242f70:easytag/old-scan-icon.patch
-f:8de8f0315af2789f862db05e4f527acb:darktable/.footprint
-f:8f30331d27be1d38a3540efbfae3d452:darktable/.md5sum
-f:501a33bb2c6305b0fcb60b6db15f599a:darktable/Pkgfile
+f:dad06c01bdd4286e628bf4d09598ac10:darktable/.footprint
+f:6c2a671881be9e6a36dfc101caae8aa5:darktable/.md5sum
+f:b4c63e0519e9b4912ae39f618198f89a:darktable/Pkgfile
 f:69a45bed3c2a4075e5ac0407d5dfe027:jhead/.footprint
 f:a46e490d96f76c6c4f7306f545f9d06d:jhead/.md5sum
 f:8ba89e8e08a92adbd3c0c59560e6c4ee:jhead/Pkgfile

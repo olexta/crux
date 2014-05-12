@@ -138,6 +138,7 @@ drwxr-xr-x	root/root	usr/share/darktable/kernels/
 -rw-r--r--	root/root	usr/share/darktable/kernels/basic.cl
 -rw-r--r--	root/root	usr/share/darktable/kernels/bilateral.cl
 -rw-r--r--	root/root	usr/share/darktable/kernels/blendop.cl
+-rw-r--r--	root/root	usr/share/darktable/kernels/bloom.cl
 -rw-r--r--	root/root	usr/share/darktable/kernels/colorspace.cl
 -rw-r--r--	root/root	usr/share/darktable/kernels/common.h
 -rw-r--r--	root/root	usr/share/darktable/kernels/demosaic_ppg.cl
