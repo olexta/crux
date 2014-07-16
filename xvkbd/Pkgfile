@@ -1,7 +1,7 @@
 # Description: Virtual (graphical) keyboard program for X Window System
 # URL:         http://homepage3.nifty.com/tsato/xvkbd
 # Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
-# Depends on:  xorg-libxtst xaw3d xorg-imake
+# Depends on:  util-linux xorg-libxtst xaw3d
 
 name=xvkbd
 version=3.5
