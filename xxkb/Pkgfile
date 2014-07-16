@@ -1,7 +1,7 @@
 # Description: A keyboard layout indicator and switcher
 # URL:         http://sourceforge.net/projects/xxkb
 # Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
-# Depends on:  xorg-libxpm xorg-imake
+# Depends on:  util-linux xorg-libxpm xorg-imake
 
 name=xxkb
 version=1.11
