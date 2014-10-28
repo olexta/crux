@@ -7,15 +7,17 @@
 
 name=sonata
 version=1.6.2.1
-release=2
+release=3
 source=(http://codingteam.net/project/$name/download/file/$name-$version.tar.gz
-        mpd-0.18.patch)
+        mpd-0.18.patch lyrics.patch)
 
 build() {
     cd $name-$version
 
     # support disabling crossfade in MPD >= 0.18
     patch -p1 -i $SRC/mpd-0.18.patch
+    # fixes pulling the lyrics from lyricwiki.org
+    patch -p0 -i $SRC/lyrics.patch
 
     python setup.py install --root=$PKG --prefix=/usr
 
