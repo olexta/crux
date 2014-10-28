@@ -1,0 +1,28 @@
+diff -aur sonata-1.6.2.1/sonata/main.py sonata-1.6.2.1-new/sonata/main.py
+--- sonata-1.6.2.1/sonata/main.py	2009-09-22 02:02:16.000000000 +0500
++++ sonata-1.6.2.1-new/sonata/main.py	2014-08-25 21:50:58.000000000 +0400
+@@ -989,13 +989,17 @@
+ 						self.repeatmenu.set_active(self.status['repeat'] == '1')
+ 					if not self.last_random or self.last_random != self.status['random']:
+ 						self.randommenu.set_active(self.status['random'] == '1')
+-					if self.status['xfade'] == '0':
+-						self.config.xfade_enabled = False
+-					else:
+-						self.config.xfade_enabled = True
+-						self.config.xfade = int(self.status['xfade'])
+-						if self.config.xfade > 30:
+-							self.config.xfade = 30
++					
++					self.config.xfade_enabled = False
++					if 'xfade' in self.status:
++						xfade = int(self.status['xfade'])
++
++						if xfade != 0:
++							self.config.xfade_enabled = True
++							self.config.xfade = xfade
++							if self.config.xfade > 30:
++								self.config.xfade = 30	
++
+ 					self.last_repeat = self.status['repeat']
+ 					self.last_random = self.status['random']
+ 					return

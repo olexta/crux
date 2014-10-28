@@ -7,11 +7,15 @@
 
 name=sonata
 version=1.6.2.1
-release=1
-source=(http://codingteam.net/project/$name/download/file/$name-$version.tar.gz)
+release=2
+source=(http://codingteam.net/project/$name/download/file/$name-$version.tar.gz
+        mpd-0.18.patch)
 
 build() {
     cd $name-$version
+
+    # support disabling crossfade in MPD >= 0.18
+    patch -p1 -i $SRC/mpd-0.18.patch
 
     python setup.py install --root=$PKG --prefix=/usr
 

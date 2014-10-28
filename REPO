@@ -87,8 +87,9 @@ f:ec1e409e62bb2d5d5a5e5d5d4e6694d3:rsnapshot/README
 f:68457d7b9c721670502953a328159fb0:rsnapshot/.md5sum
 f:fb709212e1955f756f45d0fac9220ecf:rsnapshot/Pkgfile
 f:2f2872fc362da9923cf25a7da0a1c4a8:sonata/.footprint
-f:5276156eca12cb00b666c6c6be7c4972:sonata/.md5sum
-f:6e6fca7546bf869f2c036eeee28c4653:sonata/Pkgfile
+f:1cfa320c09ea95dbc6df0455a68021a8:sonata/mpd-0.18.patch
+f:cd18d91e0ffb656277d6cd8aef84e786:sonata/.md5sum
+f:a8ef06eb0acc064e72f0d7f92912f479:sonata/Pkgfile
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint
 f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
 f:0d7e9b952a538e369be5fe8e9a142229:volumeicon/.md5sum
