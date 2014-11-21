@@ -4,8 +4,8 @@
 # Depends on:
 
 name=hdapsd
-version=20090401
-release=2
+version=20141024
+release=1
 source=(http://downloads.sourceforge.net/hdaps/$name-$version.tar.gz
         hdapsd.conf hdapsd.rc)
 
