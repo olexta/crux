@@ -1,10 +1,11 @@
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
--rw-r--r--	root/root	lib/udev/rules.d/70-wacom.rules
+-rw-r--r--	root/root	lib/udev/rules.d/wacom.rules
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/isdv4-serial-debugger
+-rwxr-xr-x	root/root	usr/bin/isdv4-serial-inputattach
 -rwxr-xr-x	root/root	usr/bin/xsetwacom
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/xorg/

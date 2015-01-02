@@ -4,19 +4,21 @@
 # Depends on:  xorg-libxi xorg-libxinerama xorg-libxrandr
 
 name=xorg-xf86-input-wacom
-version=0.23.0
+version=0.27.0
 release=1
 source=(http://downloads.sourceforge.net/linuxwacom/${name#*-}/${name#*-}-$version.tar.bz2
-        70-wacom.rules)
+        disable-systemd-in-udev-rules.patch)
 
 build() {
     cd ${name#*-}-$version
 
+    patch -p1 -i $SRC/disable-systemd-in-udev-rules.patch
+
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
-                --with-xorg-conf-dir=/usr/share/X11/xorg.conf.d
+                --with-xorg-conf-dir=/usr/share/X11/xorg.conf.d \
+                --with-udev-rules-dir=/lib/udev/rules.d \
+                --without-systemd-unit-dir
     make
     make DESTDIR=$PKG install
-
-    install -m0644 -D $SRC/70-wacom.rules $PKG/lib/udev/rules.d/70-wacom.rules
 }

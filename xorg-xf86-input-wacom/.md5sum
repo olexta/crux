@@ -1,2 +1,2 @@
-10db4f8272286690255c1bcc18bfdd92  70-wacom.rules
-353642b8a3f2dde089e913be32955aae  xf86-input-wacom-0.23.0.tar.bz2
+ece06a0b6f1572dd3099b0e7eb6014eb  disable-systemd-in-udev-rules.patch
+f75b374c47969fb9b21d9c2134396400  xf86-input-wacom-0.27.0.tar.bz2
