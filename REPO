@@ -6,6 +6,7 @@ d:arandr
 d:xorg-xf86-input-wacom
 d:xdotool
 d:jpegexiforient
+d:python-mpd2
 d:lensfun
 d:gsimplecal
 d:easytag
@@ -30,7 +31,7 @@ f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
 f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
 f:3299d707f5b701befe7a91610c032bfd:python-mpd/.footprint
 f:91408e62b068ba67efab34e523830ce5:python-mpd/.md5sum
-f:6d5e857a59f4476beec1809469d06695:python-mpd/Pkgfile
+f:43e40d946a31f11c2bbcd6242a8daf5f:python-mpd/Pkgfile
 f:3eceaad15a8144dbfcbdf7c439d33cc5:xxkb/.footprint
 f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
 f:c48b42edf63b2557007a5165fa2f5364:xxkb/Pkgfile
