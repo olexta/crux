@@ -4,7 +4,7 @@
 # Depends on:  gtk
 
 name=gsimplecal
-version=2.0
+version=2.1
 release=1
 source=(https://github.com/dmedvinsky/$name/archive/v$version.tar.gz)
 
