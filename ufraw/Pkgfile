@@ -1,11 +1,11 @@
 # Description:  Standalone or gimp plugin converter for raw files
 # URL:          http://ufraw.sourceforge.net
 # Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
-# Depends on:   gtkimageview lcms
-# Nice to have: exiv2 jasper gimp
+# Depends on:   gtkimageview lcms2
+# Nice to have: exiv2 lensfun gimp
 
 name=ufraw
-version=0.20
+version=0.21
 release=1
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
