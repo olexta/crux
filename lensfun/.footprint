@@ -1,11 +1,15 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/g-lensfun-update-data
+-rwxr-xr-x	root/root	usr/bin/lensfun-add-adapter
+-rwxr-xr-x	root/root	usr/bin/lensfun-update-data
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/lensfun/
 -rw-r--r--	root/root	usr/include/lensfun/lensfun.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/liblensfun.so -> liblensfun.so.0
-lrwxrwxrwx	root/root	usr/lib/liblensfun.so.0 -> liblensfun.so.0.2.8
--rwxr-xr-x	root/root	usr/lib/liblensfun.so.0.2.8
+lrwxrwxrwx	root/root	usr/lib/liblensfun.so.0 -> liblensfun.so.0.3.0
+-rwxr-xr-x	root/root	usr/lib/liblensfun.so.0.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/lensfun.pc
 drwxr-xr-x	root/root	usr/share/
@@ -14,6 +18,7 @@ drwxr-xr-x	root/root	usr/share/lensfun/
 -rw-r--r--	root/root	usr/share/lensfun/compact-canon.xml
 -rw-r--r--	root/root	usr/share/lensfun/compact-casio.xml
 -rw-r--r--	root/root	usr/share/lensfun/compact-fujifilm.xml
+-rw-r--r--	root/root	usr/share/lensfun/compact-gopro.xml
 -rw-r--r--	root/root	usr/share/lensfun/compact-kodak.xml
 -rw-r--r--	root/root	usr/share/lensfun/compact-konica-minolta.xml
 -rw-r--r--	root/root	usr/share/lensfun/compact-leica.xml
@@ -31,10 +36,13 @@ drwxr-xr-x	root/root	usr/share/lensfun/
 -rw-r--r--	root/root	usr/share/lensfun/mil-nikon.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-olympus.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-panasonic.xml
+-rw-r--r--	root/root	usr/share/lensfun/mil-pentax.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-samsung.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-samyang.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-sigma.xml
 -rw-r--r--	root/root	usr/share/lensfun/mil-sony.xml
+-rw-r--r--	root/root	usr/share/lensfun/mil-zeiss.xml
+-rw-r--r--	root/root	usr/share/lensfun/misc.xml
 -rw-r--r--	root/root	usr/share/lensfun/rf-leica.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-canon.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-contax.xml
@@ -45,6 +53,7 @@ drwxr-xr-x	root/root	usr/share/lensfun/
 -rw-r--r--	root/root	usr/share/lensfun/slr-olympus.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-panasonic.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-pentax.xml
+-rw-r--r--	root/root	usr/share/lensfun/slr-ricoh.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-samsung.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-samyang.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-schneider.xml
@@ -54,3 +63,6 @@ drwxr-xr-x	root/root	usr/share/lensfun/
 -rw-r--r--	root/root	usr/share/lensfun/slr-tamron.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-tokina.xml
 -rw-r--r--	root/root	usr/share/lensfun/slr-ussr.xml
+-rw-r--r--	root/root	usr/share/lensfun/slr-vivitar.xml
+-rw-r--r--	root/root	usr/share/lensfun/slr-zeiss.xml
+-rw-r--r--	root/root	usr/share/lensfun/timestamp.txt
