@@ -5,7 +5,7 @@
 
 name=lensfun
 version=0.3.0
-release=1
+release=2
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
 
 build() {
@@ -13,12 +13,9 @@ build() {
 
     mkdir cmake_build && cd cmake_build
 
-    cmake -DLENSFUN_INSTALL_PREFIX=/usr \
-          -DBUILD_TESTS=OFF \
+    cmake -DCMAKE_INSTALL_PREFIX=/usr \
+          -DINSTALL_HELPER_SCRIPTS=OFF \
           ..
     make
     make DESTDIR=$PKG install
-
-    # remove junk
-    rm -rf $PKG/usr/share/doc
 }
