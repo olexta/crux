@@ -6,7 +6,7 @@
 
 name=darktable
 version=1.4.2
-release=1
+release=2
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.xz)
 
 build() {
@@ -17,6 +17,7 @@ build() {
     cmake -DCMAKE_INSTALL_PREFIX=/usr \
           -DCMAKE_BUILD_TYPE=Release \
           -DUSE_NLS=OFF \
+          -DUSE_LUA=OFF \
           ..
     make
     make DESTDIR=$PKG install

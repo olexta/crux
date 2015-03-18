@@ -152,10 +152,6 @@ drwxr-xr-x	root/root	usr/share/darktable/kernels/
 -rw-r--r--	root/root	usr/share/darktable/kernels/soften.cl
 drwxr-xr-x	root/root	usr/share/darktable/latex/
 -rw-r--r--	root/root	usr/share/darktable/latex/photobook.cls
-drwxr-xr-x	root/root	usr/share/darktable/lua/
-drwxr-xr-x	root/root	usr/share/darktable/lua/darktable/
--rw-r--r--	root/root	usr/share/darktable/lua/darktable/debug.lua
--rw-r--r--	root/root	usr/share/darktable/luarc (EMPTY)
 drwxr-xr-x	root/root	usr/share/darktable/pixmaps/
 -rw-r--r--	root/root	usr/share/darktable/pixmaps/dt_logo_128x128.png
 -rw-r--r--	root/root	usr/share/darktable/pixmaps/idbutton-2.png
