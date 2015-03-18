@@ -1,0 +1,4 @@
+*.tar.[gx]z
+*.tar.bz2
+*.zip
+*.partial
