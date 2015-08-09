@@ -5,7 +5,7 @@
 # Nice to have: exiv2 lensfun gimp
 
 name=ufraw
-version=0.21
+version=0.22
 release=1
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
