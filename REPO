@@ -55,10 +55,10 @@ f:ece06a0b6f1572dd3099b0e7eb6014eb:xorg-xf86-input-wacom/disable-systemd-in-udev
 f:a6c043080237aa20c4b413aa74554996:darktable/Pkgfile
 f:2580bf2e80e23939444d21593a6e4ee4:darktable/.footprint
 f:79d96bf360a1793d0b33d73d1b035e57:darktable/.md5sum
-f:fb709212e1955f756f45d0fac9220ecf:rsnapshot/Pkgfile
+f:f6ffdcea898c26d5a06deb1c6c93ce8d:rsnapshot/Pkgfile
 f:ec1e409e62bb2d5d5a5e5d5d4e6694d3:rsnapshot/README
 f:5f96bc2f04a0138931f0db24123d4d85:rsnapshot/.footprint
-f:68457d7b9c721670502953a328159fb0:rsnapshot/.md5sum
+f:a8add4be83b5c7c737f7900dcd3eb5b7:rsnapshot/.md5sum
 f:c48b42edf63b2557007a5165fa2f5364:xxkb/Pkgfile
 f:3eceaad15a8144dbfcbdf7c439d33cc5:xxkb/.footprint
 f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
