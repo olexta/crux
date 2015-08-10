@@ -48,9 +48,9 @@ f:1517da5680886f9e0d05198150e6f022:xvkbd/.md5sum
 f:c23639a0b3e827a6e148ffafd86fcca5:xdotool/Pkgfile
 f:1143c35390f5a1c2d9d30b0ad2a2ab7a:xdotool/.footprint
 f:9eb90c89139ac5f10313654994a67c97:xdotool/.md5sum
-f:f81c8539aa7a09a381ab271f2d3c5e3b:xorg-xf86-input-wacom/Pkgfile
+f:feccaa379e9daf65387a5479627c98f3:xorg-xf86-input-wacom/Pkgfile
 f:e3295f8b0d237487ea1afb812e7353da:xorg-xf86-input-wacom/.footprint
-f:bdb394c4701f28ae3f59a97a6f7552c7:xorg-xf86-input-wacom/.md5sum
+f:b3f693e2c772e9ac88e59f9a2dad2e88:xorg-xf86-input-wacom/.md5sum
 f:ece06a0b6f1572dd3099b0e7eb6014eb:xorg-xf86-input-wacom/disable-systemd-in-udev-rules.patch
 f:a6c043080237aa20c4b413aa74554996:darktable/Pkgfile
 f:2580bf2e80e23939444d21593a6e4ee4:darktable/.footprint
