@@ -65,10 +65,10 @@ f:4a17d06c2d02615ac4a4f99658f430e5:xxkb/.md5sum
 f:ae65155d0230d31a25acb6e94f2bd570:galculator/Pkgfile
 f:0a92412acb18b7836659f1b77063d9ef:galculator/.footprint
 f:4a466898419149f3f0ee401baca3c4d1:galculator/.md5sum
-f:01c712fb7350259c4c8cb5256f96a403:argyllcms/Pkgfile
+f:c4c45eaa136e7462cdbb5abdfe33e658:argyllcms/Pkgfile
 f:c6d4ee1180de388c5558747e1dc33c69:argyllcms/README
-f:95fd4796e007ed538d2683b51ba1a6df:argyllcms/.footprint
-f:f121a780018db4c7a0080cf1a7195efc:argyllcms/.md5sum
+f:8dfaf993395bf00157607298c7ae01c2:argyllcms/.footprint
+f:681bba05659a5758180cad33e5aa1b6b:argyllcms/.md5sum
 f:1cfa320c09ea95dbc6df0455a68021a8:sonata/mpd-0.18.patch
 f:bc8c2afee1ab66d0acf60a7c833bfa58:sonata/Pkgfile
 f:595fcf7615035829b264afecb5a1beeb:sonata/lyrics.patch

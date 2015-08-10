@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/illumread
 -rwxr-xr-x	root/root	usr/bin/invprofcheck
 -rwxr-xr-x	root/root	usr/bin/kodak2ti3
+-rwxr-xr-x	root/root	usr/bin/ls2ti3
 -rwxr-xr-x	root/root	usr/bin/mppcheck
 -rwxr-xr-x	root/root	usr/bin/mpplu
 -rwxr-xr-x	root/root	usr/bin/mppprof
@@ -52,11 +53,13 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/argyllcms/
 drwxr-xr-x	root/root	usr/share/argyllcms/doc/
+-rw-r--r--	root/root	usr/share/argyllcms/doc/3dformat.html
+-rw-r--r--	root/root	usr/share/argyllcms/doc/ArgyllCMS_arts_tag.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/ArgyllDoc.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/ArgyllFlow.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/ArgyllFlowThumb.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/CMP_DT_003.jpg
--rw-r--r--	root/root	usr/share/argyllcms/doc/CMP_Digital_Target-3.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/CMP_Digital_Target-4.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/CRTspectrum.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/ChangesSummary.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Chroma4.jpg
@@ -88,6 +91,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Installing_MSWindows.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Installing_OSX.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/JETI_1211.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/K10A.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph1.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph2.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Kgraph3.jpg
@@ -121,6 +125,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd3x.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd4.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SpyderChecker.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/VideoEOTFs.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/WideGamutColmters.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/YellowGreen.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/applycal.html
@@ -239,9 +244,9 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/3dap5k.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CIE_C.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_DT_003.cht
--rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-3.cht
--rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-3.cie
--rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-3.ti2
+-rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-4.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-4.cie
+-rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-4.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ClayRGB1998.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorChecker.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorChecker.cie
@@ -251,6 +256,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerPassport.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerPassport.cie
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerSG.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerSG.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_0.0.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_0.1.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_0.3.sp
