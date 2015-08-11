@@ -5,17 +5,16 @@
 
 name=argyllcms
 version=1.7.0
-release=1
+release=2
 source=(http://www.argyllcms.com/Argyll_V${version}_src.zip)
 
 build() {
     cd Argyll_V$version
 
-    # use scanner group instead of plugdev
-    sed 's/plugdev/scanner/g' -i usb/{*.rules,Argyll} doc/*Linux*
-    # usb-db util is deprecated and is not needed to set ID_VENDOR and ID_MODEL
-    # acording to VID and PID
-    sed '/usb-db/d' -i usb/55-Argyll.rules
+    # use scanner group instead of colord
+    sed 's/colord/scanner/g' -i usb/{*.rules,Argyll} doc/Inst*Linux.html
+    # do not set ID_VENDOR/ID_MODEL (CRUX has no usb-db/usb_id utils)
+    sed -r '/usb(-db|_id)/s/^/#/' -i usb/55-Argyll.rules
 
     make all
     make DESTDIR=$PKG PREFIX="/usr" REFSUBDIR="share/$name/ref" install
@@ -24,9 +23,7 @@ build() {
     # there is html documentation only, so install it
     install -d $PKG/usr/share/$name/doc/ccmxs
     install -m0644 doc/*.* $PKG/usr/share/$name/doc
-    install -m0644 doc/ccmxs/*.ccmx $PKG/usr/share/$name/doc/ccmxs
-    # fix file permissions for executables
-    chmod 0755 $PKG/usr/bin/*
+    install -m0644 doc/ccmxs/* $PKG/usr/share/$name/doc/ccmxs
 
     # remove junk
     rm -f $PKG/usr/bin/License.txt
