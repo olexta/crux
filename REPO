@@ -1,6 +1,5 @@
 d:arandr
 d:sdcv
-d:hdapsd
 d:jpegexiforient
 d:lensfun
 d:gtkimageview
@@ -28,11 +27,6 @@ f:ea5708bcb80f3c2c8d50dd19cac423f4:sdcv/Pkgfile
 f:76cd68bbf4662f3ab9e1d82822f0a0c6:sdcv/sdcv-0.4.2-headers.patch
 f:47c95bcd44e6c848969c07c93cca999f:sdcv/.footprint
 f:4049caebe937754c99ca8a870b1bace2:sdcv/.md5sum
-f:041d90c943a6973c7b1b195e78259509:hdapsd/Pkgfile
-f:07fc036c8717bf5a38bbc269ed38ad19:hdapsd/hdapsd.conf
-f:1e0c96ebfd01bdb8e38421da1be86460:hdapsd/hdapsd.rc
-f:681fee20bde9a1b9622f675003012041:hdapsd/.footprint
-f:dfeea7b356a8225aae2c6551a127237a:hdapsd/.md5sum
 f:3c32ba6c26c8989e8338b91b5dca6563:jpegexiforient/Pkgfile
 f:ad0545330fb0518c9b67f8a53c0e0bbc:jpegexiforient/.footprint
 f:26b1568bfd6e84a7dbbf3c4c69bbf0e6:jpegexiforient/.md5sum
