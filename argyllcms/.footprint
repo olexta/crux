@@ -77,6 +77,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/DTP92.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/DTP94.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/DocLicense.txt
+-rw-r--r--	root/root	usr/share/argyllcms/doc/EX1.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Environment.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/FWA.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/FWA_measure.jpg
@@ -117,6 +118,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SG.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SG_footer.txt
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SG_header.txt
+-rw-r--r--	root/root	usr/share/argyllcms/doc/SMCube.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Scenarios.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Smile.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Source.html
@@ -124,6 +126,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd3.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd3x.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd4.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd5.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SpyderChecker.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/VideoEOTFs.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/WideGamutColmters.html
