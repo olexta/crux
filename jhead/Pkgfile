@@ -1,6 +1,6 @@
-# Description:  EXIF JPEG info parser and thumbnail remover
-# URL:          http://www.sentex.net/~mwandel/jhead
-# Maintainer:   Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Description: EXIF JPEG info parser and thumbnail remover
+# URL:         http://www.sentex.net/~mwandel/jhead
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
 # Depends on:
 
 name=jhead
