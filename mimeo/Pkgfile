@@ -1,0 +1,17 @@
+# Description: Open files by MIME-type or file name using regular expressions
+# URL:         http://xyne.archlinux.ca/projects/mimeo
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Depends on:  pyxdg
+
+name=mimeo
+version=2015.6
+release=1
+source=(http://xyne.archlinux.ca/projects/$name/src/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+
+    python setup.py install --root=$PKG --optimize=1
+
+    install -m0755 -D mimeo $PKG/usr/bin/mimeo
+}

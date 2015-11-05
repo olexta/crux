@@ -1,6 +1,7 @@
 d:arandr
 d:sdcv
 d:jpegexiforient
+d:mimeo
 d:lensfun
 d:gtkimageview
 d:xvkbd
@@ -30,6 +31,9 @@ f:4049caebe937754c99ca8a870b1bace2:sdcv/.md5sum
 f:fc0b5853a2345fdce2bc27ebcd815ed3:jpegexiforient/Pkgfile
 f:ad0545330fb0518c9b67f8a53c0e0bbc:jpegexiforient/.footprint
 f:26b1568bfd6e84a7dbbf3c4c69bbf0e6:jpegexiforient/.md5sum
+f:aec7c77b77b1abef8f3a6ba09e838512:mimeo/Pkgfile
+f:e1f919b097ff9f1c65a1dc7e9ca34368:mimeo/.footprint
+f:2d1757a6b243a87a55f1f74ae8fd32c7:mimeo/.md5sum
 f:77845279e92da0144361098c5ce42d06:lensfun/Pkgfile
 f:75bd1542bbb5da7806b146f0518bb04b:lensfun/.footprint
 f:19d90a314a1c23b6ead70156a4b471b5:lensfun/.md5sum
