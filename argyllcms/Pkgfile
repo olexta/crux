@@ -4,9 +4,9 @@
 # Depends on:  xorg-libxxf86vm xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver jam
 
 name=argyllcms
-version=1.8.2
+version=1.8.3
 release=1
-source=(http://www.argyllcms.com/Argyll_V${version}_src.zip)
+source=("http://www.argyllcms.com/Argyll_V${version}_src.zip")
 
 build() {
     cd Argyll_V$version

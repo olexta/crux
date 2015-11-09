@@ -128,6 +128,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/doc/
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd4.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/Spyd5.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/SpyderChecker.jpg
+-rw-r--r--	root/root	usr/share/argyllcms/doc/SpyderChecker24.jpg
 -rw-r--r--	root/root	usr/share/argyllcms/doc/VideoEOTFs.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/WideGamutColmters.html
 -rw-r--r--	root/root	usr/share/argyllcms/doc/YellowGreen.jpg
@@ -300,6 +301,8 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SOtele.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker.cie
+-rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker24.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/SpyderChecker24.cie
 -rw-r--r--	root/root	usr/share/argyllcms/ref/Trulux.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/TruluxPlus.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ccxx.ti1
