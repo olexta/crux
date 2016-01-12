@@ -18,6 +18,7 @@ d:easytag
 d:ncmpcpp
 d:ufraw
 d:jhead
+d:ftjam
 d:volumeicon
 d:gsimplecal
 d:python-mpd
@@ -89,6 +90,9 @@ f:596f38afe7a349be60de7508d606d67b:ufraw/.md5sum
 f:1df3d624431b4dd45111bb2fe4636dbf:jhead/Pkgfile
 f:69a45bed3c2a4075e5ac0407d5dfe027:jhead/.footprint
 f:b4b26071f96c8019f378ce2a3c0b0bc4:jhead/.md5sum
+f:f7a140c30eb3a616fcaf7bd6be279a81:ftjam/Pkgfile
+f:befbdb005f6d72371ccd16df69e3021e:ftjam/.footprint
+f:f57f6d25de6be2af92150e0d041f94a6:ftjam/.md5sum
 f:f133bd2a24f4c3369c55c111780b553b:volumeicon/Pkgfile
 f:ef64690cdfb4ea9c0dbfb5538c3cc3a0:volumeicon/glib.patch
 f:2f101ee8161fdf7b2a631496943a5300:volumeicon/.footprint

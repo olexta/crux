@@ -1,0 +1,18 @@
+# Description: Build tool that can be used as a replacement for Make
+# URL:         http://freetype.sourceforge.net/jam
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Danny Rawlins, crux at romster dot me
+# Depends on:
+
+name=ftjam
+version=2.5.2
+release=1
+source=(http://downloads.sourceforge.net/freetype/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}
