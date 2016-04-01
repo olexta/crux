@@ -11,7 +11,7 @@ source=(http://christian.amsuess.com/tools/$name/files/$name-$version.tar.gz)
 build() {
     cd $name-$version
 
-    python setup.py install --root=$PKG --prefix=/usr
+    python setup.py install --root=$PKG
 
     # fix man location
     mv $PKG/usr/share/man $PKG/usr
