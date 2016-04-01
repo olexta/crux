@@ -19,7 +19,7 @@ build() {
     # fixes pulling the lyrics from lyricwiki.org
     patch -p0 -i $SRC/lyrics.patch
 
-    python setup.py install --root=$PKG --prefix=/usr
+    python setup.py install --root=$PKG
 
     # fix man location
     mv $PKG/usr/share/man $PKG/usr
