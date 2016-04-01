@@ -1,0 +1,16 @@
+# Description: Typing tutor trainer
+# URL:         https://pypi.python.org/pypi/typetrainer
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Ivan Rodionov, jean at mosk ru
+# Depends on:  pygtk setuptools
+
+name=typetrainer
+version=0.5.2
+release=1
+source=(http://pypi.python.org/packages/source/t/$name/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    python setup.py install --root=$PKG
+}

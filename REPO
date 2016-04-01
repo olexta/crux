@@ -17,6 +17,7 @@ d:pmount
 d:easytag
 d:ncmpcpp
 d:ufraw
+d:typetrainer
 d:jhead
 d:ftjam
 d:volumeicon
@@ -87,6 +88,9 @@ f:1d80181ec5c317e30c8657c2401a3741:ufraw/Pkgfile
 f:e3e32867e084383f0fea613c60835907:ufraw/README
 f:fd0a2014e32c97c16dbb159f6b4cf6f8:ufraw/.footprint
 f:596f38afe7a349be60de7508d606d67b:ufraw/.md5sum
+f:c6debceb39c8a971261782b2cca30202:typetrainer/Pkgfile
+f:d96b18032d8c99277c8168ccdfb22a4c:typetrainer/.footprint
+f:9709458ef23f1cda22fd6b012fc1ba43:typetrainer/.md5sum
 f:1df3d624431b4dd45111bb2fe4636dbf:jhead/Pkgfile
 f:69a45bed3c2a4075e5ac0407d5dfe027:jhead/.footprint
 f:b4b26071f96c8019f378ce2a3c0b0bc4:jhead/.md5sum
