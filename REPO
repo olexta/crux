@@ -16,6 +16,7 @@ d:sonata
 d:pmount
 d:easytag
 d:ncmpcpp
+d:libxdg-basedir
 d:ufraw
 d:typetrainer
 d:jhead
@@ -84,6 +85,9 @@ f:cf5975420ec71cca5f2d7cede00e59cc:easytag/.md5sum
 f:f4468b6e2c804edd16b0b559e5e8a7bf:ncmpcpp/Pkgfile
 f:e60edf6e9eacd51d87a8d4e78c7151f5:ncmpcpp/.footprint
 f:7c46494fb53984fb7c167d1931f2e51f:ncmpcpp/.md5sum
+f:88fe94ab3ee2b52aa61e5e0764492b1d:libxdg-basedir/Pkgfile
+f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
+f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:1d80181ec5c317e30c8657c2401a3741:ufraw/Pkgfile
 f:e3e32867e084383f0fea613c60835907:ufraw/README
 f:fd0a2014e32c97c16dbb159f6b4cf6f8:ufraw/.footprint

@@ -1,0 +1,19 @@
+# Description: An implementation of the XDG Base Directory specifications
+# URL:         http://github.com/devnev/libxdg-basedir
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Kristian Lehmann, email at zero-io dot net
+# Depends on:
+
+name=libxdg-basedir
+version=1.2.0
+release=1
+source=(https://github.com/devnev/$name/archive/$name-$version.tar.gz)
+
+build() {
+    cd $name-$name-$version
+
+    ./autogen.sh --prefix=/usr \
+                 --mandir=/usr/man
+    make
+    make DESTDIR=$PKG install
+}
