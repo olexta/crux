@@ -1,0 +1,17 @@
+# Description: A lightweight replacement for common notification-daemons
+# URL:         http://www.knopwob.org/dunst
+# Maintainer:  Oleksii Tkachuk, oleksii dot tkachuk at gmail dot com
+# Packager:    Brian Tomlinson, darthlukan at gmail dot com
+# Depends on:  dbus xorg-libxinerama xorg-libxft xorg-libxscrnsaver libxdg-basedir
+
+name=dunst
+version=1.1.0
+release=1
+source=(http://www.knopwob.org/public/$name-release/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    make
+    make DESTDIR=$PKG PREFIX=/usr MANPREFIX=/usr/man install
+}

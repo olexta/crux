@@ -3,6 +3,7 @@ d:sdcv
 d:jpegexiforient
 d:mimeo
 d:lensfun
+d:dunst
 d:gtkimageview
 d:xvkbd
 d:xdotool
@@ -16,6 +17,7 @@ d:sonata
 d:pmount
 d:easytag
 d:ncmpcpp
+d:libxdg-basedir
 d:ufraw
 d:typetrainer
 d:jhead
@@ -39,6 +41,9 @@ f:2d1757a6b243a87a55f1f74ae8fd32c7:mimeo/.md5sum
 f:77845279e92da0144361098c5ce42d06:lensfun/Pkgfile
 f:75bd1542bbb5da7806b146f0518bb04b:lensfun/.footprint
 f:19d90a314a1c23b6ead70156a4b471b5:lensfun/.md5sum
+f:547b883ee94d1e6100e50e821f60e915:dunst/Pkgfile
+f:df479e8ee9ababd3b967a2b32c9ef10e:dunst/.footprint
+f:427f335acc7ddfa4872836bfd2bc1944:dunst/.md5sum
 f:f70a1242db8330de3d476480821ec351:gtkimageview/Pkgfile
 f:d98f6a2249695db67837bfe29138b585:gtkimageview/.footprint
 f:9808ae00408d6b36b4fc7eb6076b0d99:gtkimageview/.md5sum
@@ -84,6 +89,9 @@ f:cf5975420ec71cca5f2d7cede00e59cc:easytag/.md5sum
 f:f4468b6e2c804edd16b0b559e5e8a7bf:ncmpcpp/Pkgfile
 f:e60edf6e9eacd51d87a8d4e78c7151f5:ncmpcpp/.footprint
 f:7c46494fb53984fb7c167d1931f2e51f:ncmpcpp/.md5sum
+f:88fe94ab3ee2b52aa61e5e0764492b1d:libxdg-basedir/Pkgfile
+f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
+f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:1d80181ec5c317e30c8657c2401a3741:ufraw/Pkgfile
 f:e3e32867e084383f0fea613c60835907:ufraw/README
 f:fd0a2014e32c97c16dbb159f6b4cf6f8:ufraw/.footprint
